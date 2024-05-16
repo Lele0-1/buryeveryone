@@ -41,6 +41,12 @@ body {
   
   /* For mobile screens (generally narrower than 768px) */
   @media (max-width: 767px) {
-
+    .header-mobile {
+        height: 30vw;
+    }
+    
+    .warning-mobile {
+        height: 38vw;
+      }
   }
 
