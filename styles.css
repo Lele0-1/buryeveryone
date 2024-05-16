@@ -39,14 +39,32 @@ body {
     }
   }
   
+
+
   /* For mobile screens (generally narrower than 768px) */
-  @media (max-width: 767px) {
+@media (max-width: 767px) {
     .header-mobile {
+        z-index: 1; /* Give a higher stacking order */
         height: 30vw;
     }
     
     .warning-mobile {
         height: 38vw;
-      }
-  }
+    }
 
+    #btns-home { /* Target all buttons */
+        padding: 1.5vw 13vw; /* Increase padding */
+    }
+
+    #btn-patreon {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        padding: 1vw 3vw;
+
+    }
+
+    .col-md-12  {
+        margin-top: 0.8%;
+        margin-bottom: 0.8%;
+    }
+}
