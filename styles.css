@@ -1,0 +1,17 @@
+#home {
+    text-align: center;
+  }
+
+.col-md-12  {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#btns-home { /* Target all buttons */
+    font-size: 1.8vw; /* Increase font size */
+    padding: 1.5dvh 16dvh; /* Increase padding */
+  }
+
+  body {
+    background-color: black;
+  }
