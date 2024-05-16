@@ -10,9 +10,21 @@
 #btns-home { /* Target all buttons */
     font-size: 1.8vw; /* Increase font size */
     padding: 1.5dvh 16dvh; /* Increase padding */
-  }
+}
+
+#btn-patreon {
+    margin-top: 1vw;
+    font-size: 1.5vw;
+}
+
+  
 
 body {
     background-color: #121212;
-  }
+}
+
+#header {
+    z-index: 1; /* Give a higher stacking order */
+    height: 10vw;
+}
 
