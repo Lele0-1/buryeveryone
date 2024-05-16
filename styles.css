@@ -3,17 +3,21 @@
   }
 
 .col-md-12  {
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 0.3%;
+    margin-bottom: 0.3%;
 }
 
 #btns-home { /* Target all buttons */
     font-size: 1.8vw; /* Increase font size */
     padding: 1.5dvh 16dvh; /* Increase padding */
 }
-
+#btns-home, #btn-patreon    {
+    background-color: #899232;
+    border: none;
+}
 #btn-patreon {
     margin-top: 1vw;
+    margin-bottom: 1vw;
     font-size: 1.5vw;
 }
 
