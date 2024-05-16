@@ -2,33 +2,45 @@
     text-align: center;
   }
 
-.col-md-12  {
-    margin-top: 0.3%;
-    margin-bottom: 0.3%;
-}
-
-#btns-home { /* Target all buttons */
-    font-size: 1.8vw; /* Increase font size */
-    padding: 1.5dvh 16dvh; /* Increase padding */
-}
 #btns-home, #btn-patreon    {
     background-color: #899232;
     border: none;
 }
-#btn-patreon {
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    font-size: 1.5vw;
-}
-
-  
 
 body {
     background-color: #121212;
 }
 
-#header {
-    z-index: 1; /* Give a higher stacking order */
-    height: 10vw;
-}
+/* For desktop screens (generally wider than 768px) */
+@media (min-width: 768px) {
+    #btns-home, #btn-patreon    {
+        font-size: 1.6vw;
+    }
+    .col-md-12  {
+        margin-top: 0.3%;
+        margin-bottom: 0.3%;
+    }
+
+    #btns-home { /* Target all buttons */
+        padding: 1.5vw 13vw; /* Increase padding */
+    }
+    #btn-patreon {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        padding: 1vw 3vw;
+    }
+    #header {
+        z-index: 1; /* Give a higher stacking order */
+        height: 13vw;
+    }
+    
+    #warning    {
+        height: 20vw;
+    }
+  }
+  
+  /* For mobile screens (generally narrower than 768px) */
+  @media (max-width: 767px) {
+
+  }
 
