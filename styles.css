@@ -2,10 +2,24 @@
     text-align: center;
   }
 
-#btns-home, #btn-patreon    {
+#btns-home {
     background-color: #899232;
+}
+
+#btn-patreon {
+    background-color: #FF6855;
+}
+
+#btns-home, #btn-patreon    {
+    font-weight: bold;
     border: none;
 }
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    flex-direction: column;
+  }
 
 body {
     background-color: #121212;
@@ -13,29 +27,28 @@ body {
 
 /* For desktop screens (generally wider than 768px) */
 @media (min-width: 768px) {
-    #btns-home, #btn-patreon    {
-        font-size: 1.6vw;
-    }
     .col-md-12  {
         margin-top: 0.3%;
         margin-bottom: 0.3%;
     }
 
     #btns-home { /* Target all buttons */
-        padding: 1.5vw 13vw; /* Increase padding */
+        padding: 1rem 2rem;
+        min-width: 18vw;
+        max-width:  18vw;
     }
     #btn-patreon {
-        margin-top: 1vw;
         margin-bottom: 1vw;
-        padding: 1vw 3vw;
+        margin-top: 5vw;
+        
     }
     #header {
         z-index: 1; /* Give a higher stacking order */
-        height: 13vw;
+        height: 7vw;
     }
     
     #warning    {
-        height: 20vw;
+        height: 14vw;
     }
   }
   
@@ -54,11 +67,14 @@ body {
     }
 
     #btns-home { /* Target all buttons */
-        padding: 1.5vw 13vw; /* Increase padding */
+            padding: 1rem 2rem;
+            padding: 1rem 2rem;
+            min-width: 60vw;
+            max-width:  60vw;
     }
 
     #btn-patreon {
-        margin-top: 1vw;
+        margin-top: 10vw;
         margin-bottom: 1vw;
         padding: 1vw 3vw;
 
