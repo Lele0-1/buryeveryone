@@ -10,6 +10,18 @@
     transition: 0.5s ease;
 }
 
+#btns-home:active {
+    background-color: #899232;
+    color: rgb(255, 255, 255);
+    transform: scale(0.9);
+ }
+ 
+ #btn-patreon:active  {
+     background-color: #FF6855;
+     color: rgb(255, 255, 255);
+     transform: scale(0.9);
+ }
+
 @keyframes opacityAnimation {
     0% {
         opacity: 0;
