@@ -145,6 +145,12 @@ body {
   /* For mobile screens (generally narrower than 768px) */
 @media (max-width: 767px) {
 
+    #ch1    {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+
     .social-container {
         margin: 0 36vw;
     }
