@@ -146,9 +146,8 @@ body {
 @media (max-width: 767px) {
 
     #ch1    {
-        object-fit: cover;
-        width: 100vw;
-        height: 100vh;
+        width: 50vw;
+        height: 50vh;
     }
 
     .social-container {
