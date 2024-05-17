@@ -9,14 +9,18 @@
     justify-content: space-between;
 }
 
+#social {
+    animation-delay: 0.8s;
+}
+
 .social-icons:hover {
     transform: scale(1.2); /* Increase size by 20% on hover */
     transition: transform 0.2s ease;
-  }
+}
 
   .social-icons:active {
     transform: scale(0.9);
-  }
+}
 
 #btns-home:hover {
    background-color: #8992328f;
