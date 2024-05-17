@@ -1,4 +1,15 @@
-/* Keyframes for opacity animation */
+#btns-home:hover {
+   background-color: #8992328f;
+   color: rgba(255, 255, 255, 0.729);
+   transition: 0.5s ease;
+}
+
+#btn-patreon:hover  {
+    background-color: #ff6955ad;
+    color: rgba(255, 255, 255, 0.729);
+    transition: 0.5s ease;
+}
+
 @keyframes opacityAnimation {
     0% {
         opacity: 0;
@@ -8,7 +19,7 @@
     }
 }
 
-/* Apply animation to specific elements */
+
 .fade-in {
     animation: opacityAnimation 1s ease-in-out forwards;
 }
@@ -42,6 +53,7 @@
 #btns-home, #btn-patreon    {
     font-weight: bold;
     border: none;
+    transition: background-color 0.5s ease;
 }
 
 #home .fade-in {
