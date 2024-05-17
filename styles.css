@@ -40,7 +40,6 @@ body {
     #btn-patreon {
         margin-bottom: 1vw;
         margin-top: 5vw;
-        
     }
     #header {
         z-index: 1; /* Give a higher stacking order */
@@ -67,10 +66,10 @@ body {
     }
 
     #btns-home { /* Target all buttons */
-            padding: 1rem 2rem;
-            padding: 1rem 2rem;
-            min-width: 60vw;
-            max-width:  60vw;
+        padding: 1rem 2rem;
+        padding: 1rem 2rem;
+        min-width: 60vw;
+        max-width:  60vw;
     }
 
     #btn-patreon {
