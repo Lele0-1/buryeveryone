@@ -18,11 +18,11 @@
     transition: transform 0.2s ease;
 }
 
-  .social-icons:active {
+.social-icons:active {
     transform: scale(0.9);
 }
 
-#btns-home:hover {
+#btns-home:hover, #btns-ch:hover {
    background-color: #8992328f;
    color: rgba(255, 255, 255, 0.729);
    transition: 0.5s ease;
@@ -36,7 +36,7 @@
     transform: scale(1.1);
 }
 
-#btns-home:active {
+#btns-home:active, #btns-ch:active {
     background-color: #899232;
     color: rgb(255, 255, 255);
     transform: scale(0.9);
@@ -81,7 +81,7 @@
     text-align: center;
   }
 
-#btns-home {
+#btns-home, #btns-ch {
     background-color: #899232;
 }
 
@@ -89,7 +89,7 @@
     background-color: #FF6855;
 }
 
-#btns-home, #btn-patreon    {
+#btns-home, #btn-patreon, #btns-ch    {
     font-weight: bold;
     border: none;
     transition: background-color 0.5s ease;
@@ -112,6 +112,25 @@ body {
 
 /* For desktop screens (generally wider than 768px) */
 @media (min-width: 768px) {
+
+    .col-md-4:nth-child(2)   {
+        display: flex;
+        justify-content: center;
+    }
+
+    #btns-ch    {
+        margin: 1vw;
+    }
+    
+    #ch1-container  {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    #ch1    {
+       width: 75%; 
+    }
+
     .social-container {
         margin: 0 46vw;
     }
@@ -121,7 +140,7 @@ body {
         margin-bottom: 0.3%;
     }
 
-    #btns-home { /* Target all buttons */
+    #btns-home, #btns-ch { /* Target all buttons */
         padding: 1rem 2rem;
         min-width: 18vw;
         max-width:  18vw;
@@ -144,6 +163,11 @@ body {
 
   /* For mobile screens (generally narrower than 768px) */
 @media (max-width: 767px) {
+
+    #ch1-container  {
+        text-align: center;
+        flex-wrap: wrap;
+    }
 
     #ch1    {
         object-fit: cover;
@@ -170,6 +194,16 @@ body {
         padding: 1rem 2rem;
         min-width: 60vw;
         max-width:  60vw;
+    }
+
+    #btns-ch    {
+        padding: 0.5rem 1rem;
+        padding: 0.5rem 1rem;
+        min-width: 30vw;
+        max-width:  30vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        display: inline-block;
     }
 
     #btn-patreon {
