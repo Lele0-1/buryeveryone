@@ -181,8 +181,10 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        object-fit: fill; /* Ensures the image is contained within the specified dimensions */
+        object-fit: contain; /* Ensures the image is contained within the specified dimensions */
         max-width: 100%; /* Adjust the percentage as needed */
+        touch-action: pinch-zoom; /* Allow pinch zooming on touch devices */
+        overflow: auto; /* Enable scrolling if the image exceeds the viewport */
     }
 
     .social-container {
