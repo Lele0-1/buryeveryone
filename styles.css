@@ -1,3 +1,6 @@
+
+
+
 #instagram, #twitter   {
     color: white;
     cursor: pointer;
@@ -127,9 +130,14 @@ body {
         flex-wrap: wrap;
     }
 
-    #ch1    {
-       width: 75%; 
+    .carousel-item img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: contain; /* Ensures the image is contained within the specified dimensions */
+        max-width: 86%; /* Adjust the percentage as needed */
     }
+
 
     .social-container {
         margin: 0 46vw;
@@ -169,10 +177,12 @@ body {
         flex-wrap: wrap;
     }
 
-    #ch1    {
-        object-fit: cover;
-        width: 75vw;
-        height: 75vh;
+    .carousel-item img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: contain; /* Ensures the image is contained within the specified dimensions */
+        max-width: 86%; /* Adjust the percentage as needed */
     }
 
     .social-container {
