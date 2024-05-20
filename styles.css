@@ -69,10 +69,10 @@
 #header.fade-in {
     animation-delay: 0.2s;
 }
-#warning.fade-in {
+#warning.fade-in,  {
     animation-delay: 0.4s;
 }
-#btns-home.fade-in {
+#btns-home.fade-in, #carousel.slide.fade-in {
     animation-delay: 0.6s;
 }
 #btn-patreon.fade-in {
@@ -186,7 +186,7 @@ body {
     }
 
     .social-container {
-        margin: 0 36vw;
+        margin: 0 34vw;
     }
 
     .header-mobile {
