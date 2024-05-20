@@ -181,8 +181,8 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        object-fit: contain; /* Ensures the image is contained within the specified dimensions */
-        max-width: 86%; /* Adjust the percentage as needed */
+        object-fit: fill; /* Ensures the image is contained within the specified dimensions */
+        max-width: 100%; /* Adjust the percentage as needed */
     }
 
     .social-container {
