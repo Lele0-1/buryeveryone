@@ -18,6 +18,10 @@
     transform: scale(1.1);
 }
 
+.card:active {
+    transform: scale(0.9);
+}
+
 .card img {
     max-width: 100%;
     border-radius: 10px 10px 0 0;
@@ -214,6 +218,23 @@ body {
 
   /* For mobile screens (generally narrower than 768px) */
 @media (max-width: 767px) {
+
+
+
+    .card {
+        border: 2px solid white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: transparent; /* No background color */
+        margin-bottom: 20px; /* Spacing between cards vertically */
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    
 
     #ch1-container  {
         text-align: center;
