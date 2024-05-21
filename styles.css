@@ -135,7 +135,7 @@ body {
         margin-left: auto;
         margin-right: auto;
         object-fit: contain; /* Ensures the image is contained within the specified dimensions */
-        max-width: 86%; /* Adjust the percentage as needed */
+        max-width: 65%; /* Adjust the percentage as needed */
     }
 
 
