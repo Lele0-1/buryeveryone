@@ -272,12 +272,13 @@ body {
 
     #btns-ch    {
         padding: 0.5rem 1rem;
-        padding: 0.5rem 1rem;
         min-width: 30vw;
         max-width:  30vw;
         margin-top: 1vw;
         margin-bottom: 1vw;
         display: inline-block;
+        margin-right: 2vw;
+        margin-left: 2vw;
     }
 
     #btn-patreon {
